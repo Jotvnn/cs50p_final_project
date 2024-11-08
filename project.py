@@ -99,7 +99,7 @@ def main():
         if mn in Nutrients.MN:
             print(f"List of products by {mn} content in descending order:")
         for p, *_ in sorted(products.items(), key=lambda t: t[1][mn], reverse=True):
-            print(f"\b{p.capitalize()[mn]}")
+            print(f"\b{p.capitalize()}")
 
 
 def _get_nested_val(data, *args):
