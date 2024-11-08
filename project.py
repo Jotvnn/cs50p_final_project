@@ -127,7 +127,7 @@ def _calculate_bmr():
     gender = input("Enter your gender male/female: ").lower().strip()
     age = int(input("Enter your age: "))
     height = int(input("Enter your height in cm: "))
-    weight = int(input("Enter your weight in kg: "))
+    weight = float(input("Enter your weight in kg: "))
 
     activity_options = {
         "1 - little or no exercise": 1.2,
