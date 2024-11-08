@@ -4,7 +4,7 @@ The project is aiming for:
 - Suggesting a diet/diet variety for a user by sorting the products based on their nutritional value (macronutrients: protein, fat, carbs, fiber, calories) specified by user.
 
 Available commands are:
-- Calculate basal metabolic rate (bmr) for male/female (_calculate_bmr() function) - "calculate bmr" input -> multiple prompts for calculating ->  result is formatted as a rounded float of calories used by user's body during a regular day (activity factor applies as a multiplier to a result of equation).
+- Calculate basal metabolic rate (bmr) for male/female (_calculate_bmr() function) - <b>"calculate bmr"</b> input -> multiple prompts for calculating ->  result is formatted as a rounded float of calories used by user's body during a regular day (activity factor applies as a multiplier to a result of equation).
 - Show a list of products (show_products() function) - "show products" input -> products_list prints out.
 - Show macros for a specific product (show_macros() function) - "show macros" input -> input of a product name from the products dict.
 - Show a user specified macronutrient of a product (_get_nested_val() + main() functions) - "show specifics" -> input of a product name and then - the macronutrient in question.
