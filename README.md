@@ -29,6 +29,6 @@ This function makes it possible for the user to choose any product from the avai
 
 <b>show_macros()</b> function outputs nutritional information of an inputted product. Can be used in case user wants to see all macronutrients for a specified product.
 
-_calculate_brm() function will ask the user for a few inputs to process them into Harris-Benedict equation (two different equations for male and female users).
+<b>_calculate_brm()</b> function will ask the user for a few inputs to process them into Harris-Benedict equation (two different equations for male and female users).
 Outputs the user's basal metabolic rate, depending on daily physical activity chosen from the list (activity_options dict);
 physical activity factor multiplies the base basal metabolic rate by a activity_options dict's value (act_mult variable).
