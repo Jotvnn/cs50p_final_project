@@ -1,4 +1,4 @@
-<strong>The project is aiming for<strong>:
+<strong>The project is aiming for</strong>:
 - Calculating user's basal metabolic rate.
 - Fetching a specific macronutrient of any available product.
 - Suggesting a diet/diet variety for a user by sorting the products based on their nutritional value (macronutrients: protein, fat, carbs, fiber, calories) specified by user.
