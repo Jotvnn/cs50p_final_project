@@ -1,7 +1,7 @@
 The project is aiming for:
 - Calculating user's basal metabolic rate.
 - Fetching a specific macronutrient of any available product.
-- Suggesting a diet/diet variaty for a user by sorting the products based on their nutritional value (macronutrients: protein, fat, carbs, fiber, calories) specified by user.
+- Suggesting a diet/diet variety for a user by sorting the products based on their nutritional value (macronutrients: protein, fat, carbs, fiber, calories) specified by user.
 
 Available commands are:
 - Calculate basal metabolic rate (bmr) for male/female (_calculate_bmr() function) - "calculate bmr" input -> multiple prompts for calculating ->  result is formatted as a rounded float of calories used by user's body during a regular day (activity factor applies as a multiplier to a result of equation).
