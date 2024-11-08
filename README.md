@@ -15,19 +15,19 @@ All of the nutritional values were taken from https://www.verywellfit.com/
 The formulas and activity factors were taken from https://www.omnicalculator.com/health/bmr-harris-benedict-equation#what-is-the-harris-benedict-equation
 
 
-Creating a custom class Nutrients allows for easier manipulation with dict's values
+Creating a <b>custom class Nutrients</b> allows for easier manipulation with dict's values
 
-main() function is for telling the programm what to execute, except when _get_nested_value() or Nutrients custom class are called:
+<b>main()</b> function is for telling the programm what to execute, except when _get_nested_value() or Nutrients custom class are called:
 - in case of an input of "show specific" - main() prompts the user for two inputs right away, then calls the _get_nested_val() function and prints a string with user specified product and macronutrient;
 output differs depending on a macronutrient specified - "grams of" fragment is for protein, fat, carbs and fiber. "calories in" fragment is for calories.
 - in case of an input of "suggest" - main()
 
-_get_nested_val() function gets and then returns the value of any key in products dict.
+<b>_get_nested_val()</b> function gets and then returns the value of any key in products dict.
 This function makes it possible for the user to choose any product from the available list and specify a macronutrient of interest.
 
-show_products() function is a simple output of all products unpacked as a list. Useful for familiarizing the user with available products.
+<b>show_products()</b> function is a simple output of all products unpacked as a list. Useful for familiarizing the user with available products.
 
-show_macros() function outputs nutritional information of an inputted product. Can be used in case user wants to see all macronutrients for a specified product.
+<b>show_macros()</b> function outputs nutritional information of an inputted product. Can be used in case user wants to see all macronutrients for a specified product.
 
 _calculate_brm() function will ask the user for a few inputs to process them into Harris-Benedict equation (two different equations for male and female users).
 Outputs the user's basal metabolic rate, depending on daily physical activity chosen from the list (activity_options dict);
