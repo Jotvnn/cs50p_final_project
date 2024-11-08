@@ -163,7 +163,7 @@ def _calculate_bmr():
         bmr_female = (655.1 + (9.563 * weight) + (1.850 * height) - (4.676 * age)) * act_mult
         print(round(bmr_female), "kcal")
     else:
-        raise ValueError("This programm is not that sophisticated")
+        raise ValueError("The equation does not support genders other than male or female")
 
 
 if __name__ == "__main__":
