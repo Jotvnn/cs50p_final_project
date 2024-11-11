@@ -4,8 +4,8 @@ from project import *
 
 
 def test_main(monkeypatch):
-    # monkeypatch the "input" function, so that it returns "suggest".
-    # This simulates the user entering any of the availabl commands in the terminal:
+    # monkeypatch the "input" function, so that it returns any of the available command inputs.
+    # This simulates the user entering any of the available commands in the terminal:
     monkeypatch.setattr("builtins.input", lambda _: "show products")
 
     # using input() like you normally would:
