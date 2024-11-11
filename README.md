@@ -1,3 +1,5 @@
+DIET AND RATION COMPANION
+
 <strong>The project aims to</strong>:
 - Calculating user's basal metabolic rate.
 - Fetching a specific macronutrient of any available product.
